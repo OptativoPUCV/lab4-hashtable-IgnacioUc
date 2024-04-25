@@ -94,9 +94,7 @@ void eraseMap(HashMap * map,  char * key) {   /*
       return;
     }
     posicion=(posicion+1)%map->capacity;
-    
   }
-    *
 
 }
 

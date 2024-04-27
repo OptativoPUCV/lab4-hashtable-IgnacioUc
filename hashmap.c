@@ -122,7 +122,7 @@ Pair * searchMap(HashMap * map,  char * key) {
 Pair * firstMap(HashMap * map) {
   if(map==NULL) return NULL;
   while(map->current!=-1){
-    if(map->buckets[map->current]!=NULL && map->buckets[map->current]->key!=NULL{
+    if(map->buckets[map->current]!=NULL && map->buckets[map->current]->key!=NULL){
       return map->buckets[map->current];
     }
     map->current++;
